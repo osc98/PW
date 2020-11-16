@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Vulnex</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="record.html">Registro</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="password.html">Contraseña</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" style="background: rgba(200,200,200,0.7); width:30%;">
+ <div class="col-md-12">
+  <div class="row mt-3">
+<!--- -->
+<form style="width:100%;" method="post" action="regiUsuario.php">
+      <fieldset>
+        <legend>Registro</legend>
+        <div class="form-group">
+          <label>Nombre</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese nombre" name="name">
+        </div>
+        <div class="form-group">
+          <label>Apellidos</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese apellidos" name="lastname">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Correo electrónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese correo" name="email">
+        </div>
+        <!--
+        <div class="form-group">
+          <label>Contaseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="emailHelp" placeholder="Nueva contraseña" name="password">
+        </div>
+        -->
+        <button type="submit" class="btn btn-primary" style="float:right;">Enviar</button>
+
+      </fieldset>
+</form>
+<!--- -->
+  </div>
+</div> <br/>
+</div>
+
+  </body>
+</html>
