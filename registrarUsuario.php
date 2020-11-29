@@ -51,8 +51,7 @@ $mail->IsSMTP();
                header("location: record.php?m=1");
                echo "<script>
                 alert('Correo registrado se le envio su password cheque su correo);
-                window.location= 'record.php'
-    </script>"
+                window.location= 'record.php' </script>";
            }
           }
       else {
